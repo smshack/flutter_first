@@ -127,7 +127,7 @@ class NewNotePage extends StatelessWidget {
                 final note = Note(titleController.text, contentController.text);
                 Navigator.pop(context, note);
               },
-              child: const Text('저장'), // 버튼의 텍스트를 설정.
+              child: const Text('저장1'), // 버튼의 텍스트를 설정.
             ),
           ],
         ),
